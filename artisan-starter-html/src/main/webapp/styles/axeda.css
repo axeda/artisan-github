@@ -1,0 +1,29 @@
+
+body {
+    background-color: grey;
+    background-image: url(../images/grad-stripe.png);
+    margin: 0px;
+    padding: 0px;
+    min-height: 416px;
+    font-family: Helvetica;
+    color: white;
+    background-repeat: repeat repeat;
+}
+
+p {
+    margin: 2px;
+}
+
+label {
+  float: left;
+  width: 10em;
+}
+
+
+#chart {
+    border: 3px coral solid;
+    width: 500px;
+}
+
+*{ cursor: inherit;}
+

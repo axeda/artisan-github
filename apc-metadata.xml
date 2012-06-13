@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+        apc-metadata.xml
+ -->
+<apcmetadata>
+    <customobjects>
+        <customobject>
+            <name>GetChartData</name>
+            <type>Action</type>
+            <sourcefile>GetChartData.groovy</sourcefile>
+            <params>
+                <param name="username" description="(REQUIRED) The name of the calling user"/>
+                <param name="dataItemName" description="(OPTIONAL) Name of data Item"/>
+                <param name="maxPoints" description="(OPTIONAL) maximum number of points to return"/>
+            </params>
+        </customobject>
+    </customobjects>
+
+    <applications>
+        <application>
+            <description>Chart Example</description>
+            <applicationId>chartexample</applicationId>
+            <indexFile>index.html</indexFile>
+            <!--<zipFile></zipFile>-->
+            <sourcePath>artisan-starter-html/src/main/webapp</sourcePath>
+        </application>
+    </applications>
+
+</apcmetadata>
