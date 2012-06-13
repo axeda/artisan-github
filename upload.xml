@@ -37,8 +37,8 @@
                 <configuration>
                     <mainClass>com.axeda.provisioner.InstallMain</mainClass>
                     <arguments>
-                        <argument>-f</argument>
-                        <argument>artisan.properties</argument>
+                        <argument>-h</argument>
+                        <argument>$1</argument>
                     </arguments>
                 </configuration>
             </plugin>
